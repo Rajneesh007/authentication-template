@@ -1,0 +1,97 @@
+body {
+    background-image: linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e);
+    background-size: cover;
+    background-position: center;
+}
+
+body,
+html {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-family: "Lato";
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 5em;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+.content {
+    padding-top: 25%;
+    text-align: center;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+        0px 8px 13px rgba(0, 0, 0, 0.1),
+        0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+hr {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+/*homepage*/
+/*navbar*/
+
+[role=button]{
+    position: absolute;
+    right: 100px;
+    bottom: 17px;
+}
+
+a {
+    text-decoration: none;
+    font-family: cursive;
+    font-size: larger;
+    color: grey;
+    line-height: inherit;
+}
+
+a:focus , a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.dropdown-menu {
+    left: 1150px; 
+}
+/*search*/
+
+.form-control {
+    position: absolute;
+    left: 520px;
+    top: 100px;
+    background-color: aliceblue;
+    padding: 12px 22px;
+}
+
+.btn{
+    position: absolute;
+    left: 720px;
+    top: 100px;
+}
+
+svg:not(:root){
+    position: absolute;
+    left: 20px;
+    top: 150px;
+    padding: 20px;
+}
+
+.para{
+    position: relative;
+    left: 20px;
+}
+
+img {
+    position: absolute;
+    left: 50px;
+    top: 200px;
+    width: 100px;
+}
